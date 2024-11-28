@@ -16,3 +16,5 @@ struct employe
 };
 
 void Saisis_info(employe* E);
+
+void Affichage_info(employe* E);

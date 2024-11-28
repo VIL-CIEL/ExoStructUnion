@@ -39,3 +39,7 @@ void Saisis_info(employe* E) {
 	E->date_fonction.annee = date;
 
 }
+
+void Affichage_info(employe* E) {
+	cout << "Employe 1 : " << E->prenom << " " << E->nom << "\nDate d'embauche : " << E->date_embauche.jour << "/" << E->date_embauche.mois << "/" << E->date_embauche.annee << "\nDate de prise de fonction : " << E->date_fonction.jour << "/" << E->date_fonction.mois << "/" << E->date_fonction.annee;
+}
