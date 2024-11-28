@@ -14,3 +14,5 @@ struct employe
 	date date_embauche;
 	date date_fonction;
 };
+
+void Saisis_info(employe* E);
