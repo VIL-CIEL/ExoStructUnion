@@ -15,7 +15,7 @@ int main() {
 	pa1.poid = 9;
 	strcpy_s(pa1.ref,"0001");
 
-	eEtat etatC1;
+	eEtat etatC1 = vide;
 
 	uContenu cont;
 	cont.palette = pa1;
@@ -32,6 +32,10 @@ int main() {
 	sCasier tab[9];
 	tab[0] = c1;
 	tab[2] = c2;
+
+	cout << "\nRouleau ro1 : " << sizeof(ro1) << "; Palette pa1 : " << sizeof(pa1) << "; Etat etatC1 : " << sizeof(etatC1);
+	cout << ";\nContenu cont : " << sizeof(cont) << "; Casier c1 : " << sizeof(c1);
+	cout << "; Casier c2 : " << sizeof(c2) << ";\nTableau tab[Casier] : " << sizeof(tab);
 
 	return 0;
 }
