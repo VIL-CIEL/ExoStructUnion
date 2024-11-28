@@ -15,6 +15,7 @@ int main() {
 	cin >> hex >> code.b;
 
 	UColor couleur;
+	couleur.val = 0;
 	couleur.components = code;
 	
 	cout << hex << couleur.val;

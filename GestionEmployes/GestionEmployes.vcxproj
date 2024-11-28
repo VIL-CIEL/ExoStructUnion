@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="GmTP.cpp" />
+    <ClCompile Include="GsTP.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GsTP.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
