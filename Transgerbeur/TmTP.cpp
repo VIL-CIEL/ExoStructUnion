@@ -36,6 +36,5 @@ int main() {
 	cout << "\nRouleau ro1 : " << sizeof(ro1) << "; Palette pa1 : " << sizeof(pa1) << "; Etat etatC1 : " << sizeof(etatC1);
 	cout << ";\nContenu cont : " << sizeof(cont) << "; Casier c1 : " << sizeof(c1);
 	cout << "; Casier c2 : " << sizeof(c2) << ";\nTableau tab[Casier] : " << sizeof(tab);
-
 	return 0;
 }
